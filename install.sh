@@ -141,7 +141,7 @@ done
 case $SKIP_PYMYC_AUR in
   true) sleep 0;;
   *)
-	  pymycinstallflags="--clean"
+	  pymycinstallflags="--answerclean=a"
 	  $ask && showfun install-local-pkgbuild || pymycinstallflags="$installflags --noconfirm"
 	  v install-local-pkgbuild "./arch-packages/illogical-impulse-pymyc-aur" "$pymycinstallflags"
     ;;

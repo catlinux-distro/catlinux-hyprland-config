@@ -13,8 +13,7 @@ depends=(
 	ttf-jetbrains-mono-nerd
 	ttf-material-symbols-variable-git
 	ttf-space-mono-nerd
-	fish
-	foot
+	kitty
 	starship
 )
 
