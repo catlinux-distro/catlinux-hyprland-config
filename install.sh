@@ -197,13 +197,6 @@ case $SKIP_MISCCONF in
     ;;
 esac
 
-case $SKIP_FISH in
-  true) sleep 0;;
-  *)
-    v rsync -av --delete .config/fish/ "$XDG_CONFIG_HOME"/fish/
-    ;;
-esac
-
 # For AGS
 case $SKIP_AGS in
   true) sleep 0;;
