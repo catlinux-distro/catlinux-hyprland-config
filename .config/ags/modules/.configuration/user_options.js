@@ -141,7 +141,7 @@ let configOptions = {
     'dock': {
         'enabled': false,
         'hiddenThickness': 5,
-        'pinnedApps': ['firefox', 'org.gnome.Nautilus'],
+        'pinnedApps': ['thorium', 'org.gnome.Nautilus'],
         'layer': 'top',
         'monitorExclusivity': true, // Dock will move to other monitor along with focus if enabled
         'searchPinnedAppIcons': false, // Try to search for the correct icon if the app class isn't an icon name
